@@ -1,5 +1,5 @@
 import {Component} from 'angular2/core';
-import { masterpage } from './app/masterpage'
+import { masterpage } from './masterpage/masterpage'
 
 @Component({
     selector: 'app',
