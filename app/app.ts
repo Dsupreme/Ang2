@@ -3,6 +3,7 @@ import { masterpage } from './masterpage/masterpage'
 
 @Component({
     selector: 'app',
+    directives: [masterpage],
     template: '<masterpage></masterpage>'
 })
 export class AppComponent { }
