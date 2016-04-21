@@ -1,4 +1,4 @@
-System.register(['angular2/core', './navbar/navbar'], function(exports_1, context_1) {
+System.register(['angular2/core', './masterpage/masterpage.js'], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -10,32 +10,32 @@ System.register(['angular2/core', './navbar/navbar'], function(exports_1, contex
     var __metadata = (this && this.__metadata) || function (k, v) {
         if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
     };
-    var core_1, navbar_1;
-    var masterpage;
+    var core_1, masterpage_js_1;
+    var AppComponent;
     return {
         setters:[
             function (core_1_1) {
                 core_1 = core_1_1;
             },
-            function (navbar_1_1) {
-                navbar_1 = navbar_1_1;
+            function (masterpage_js_1_1) {
+                masterpage_js_1 = masterpage_js_1_1;
             }],
         execute: function() {
-            masterpage = (function () {
-                function masterpage() {
+            AppComponent = (function () {
+                function AppComponent() {
                 }
-                masterpage = __decorate([
+                AppComponent = __decorate([
                     core_1.Component({
-                        selector: 'masterpage',
-                        directives: [navbar_1.navbarComponent],
-                        templateUrl: 'app/masterpage/masterpage.html'
+                        selector: 'app',
+                        directives: [masterpage_js_1.masterpage],
+                        template: '<masterpage></masterpage>'
                     }), 
                     __metadata('design:paramtypes', [])
-                ], masterpage);
-                return masterpage;
+                ], AppComponent);
+                return AppComponent;
             }());
-            exports_1("masterpage", masterpage);
+            exports_1("AppComponent", AppComponent);
         }
     }
 });
-//# sourceMappingURL=masterpage.js.map
+//# sourceMappingURL=app.js.map
