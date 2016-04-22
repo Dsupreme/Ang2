@@ -38,13 +38,13 @@
     <script>
       System.config({
         packages: {        
-          app: {
+          build: {
             format: 'register',
             defaultExtension: 'js'
           }
         }
       });
-      System.import('build/main.js')
+      System.import('build/main')
             .then(null, console.error.bind(console));
     </script>
 </html>

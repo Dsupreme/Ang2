@@ -1,4 +1,4 @@
-System.register(['angular2/core', './navbar/navbar.js'], function(exports_1, context_1) {
+System.register(['angular2/core', './navbar/navbar'], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -10,15 +10,15 @@ System.register(['angular2/core', './navbar/navbar.js'], function(exports_1, con
     var __metadata = (this && this.__metadata) || function (k, v) {
         if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
     };
-    var core_1, navbar_js_1;
+    var core_1, navbar_1;
     var masterpage;
     return {
         setters:[
             function (core_1_1) {
                 core_1 = core_1_1;
             },
-            function (navbar_js_1_1) {
-                navbar_js_1 = navbar_js_1_1;
+            function (navbar_1_1) {
+                navbar_1 = navbar_1_1;
             }],
         execute: function() {
             masterpage = (function () {
@@ -27,7 +27,7 @@ System.register(['angular2/core', './navbar/navbar.js'], function(exports_1, con
                 masterpage = __decorate([
                     core_1.Component({
                         selector: 'masterpage',
-                        directives: [navbar_js_1.navbarComponent],
+                        directives: [navbar_1.navbarComponent],
                         templateUrl: 'app/masterpage/masterpage.html'
                     }), 
                     __metadata('design:paramtypes', [])

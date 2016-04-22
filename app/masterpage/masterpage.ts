@@ -1,5 +1,5 @@
 import {Component, Input} from 'angular2/core';
-import {navbarComponent} from './navbar/navbar.js'
+import {navbarComponent} from './navbar/navbar'
 
 @Component({
   selector: 'masterpage',
