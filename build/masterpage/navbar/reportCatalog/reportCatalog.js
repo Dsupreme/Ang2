@@ -1,4 +1,4 @@
-System.register(['angular2/core', './reportCatalog/reportCatalog'], function(exports_1, context_1) {
+System.register(['angular2/core'], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -10,32 +10,28 @@ System.register(['angular2/core', './reportCatalog/reportCatalog'], function(exp
     var __metadata = (this && this.__metadata) || function (k, v) {
         if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
     };
-    var core_1, reportCatalog_1;
-    var navbarComponent;
+    var core_1;
+    var reportCatalogComponent;
     return {
         setters:[
             function (core_1_1) {
                 core_1 = core_1_1;
-            },
-            function (reportCatalog_1_1) {
-                reportCatalog_1 = reportCatalog_1_1;
             }],
         execute: function() {
-            navbarComponent = (function () {
-                function navbarComponent() {
+            reportCatalogComponent = (function () {
+                function reportCatalogComponent() {
                 }
-                navbarComponent = __decorate([
+                reportCatalogComponent = __decorate([
                     core_1.Component({
-                        selector: 'navbar',
-                        directives: [reportCatalog_1.reportCatalogComponent],
-                        templateUrl: 'app/masterpage/navbar/navbar.html'
+                        selector: 'reportCatalog',
+                        templateUrl: 'app/masterpage/navbar/reportCatalog/reportCatalog.html'
                     }), 
                     __metadata('design:paramtypes', [])
-                ], navbarComponent);
-                return navbarComponent;
+                ], reportCatalogComponent);
+                return reportCatalogComponent;
             }());
-            exports_1("navbarComponent", navbarComponent);
+            exports_1("reportCatalogComponent", reportCatalogComponent);
         }
     }
 });
-//# sourceMappingURL=navbar.js.map
+//# sourceMappingURL=reportCatalog.js.map

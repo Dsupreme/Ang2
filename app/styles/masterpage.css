@@ -33,3 +33,7 @@ html {
   padding: 10px;
   width: 60px;
 }
+
+.nav-center {
+  margin: 0.9em !important;
+}

@@ -23,4 +23,7 @@ Steps followed to setup this project in the current state:
 17. npm install materialize-css --save to add into dependencies.
 18. Update index.html file to add links for materializecss.css file and js file
 19. Update navbar.html with materialize mobile-responsive layout.
-20. 
+20. Added modal to navbar on click of button in reportCatalog.html
+21. Run command: "npm install --save ng2-material" for using modals
+22. Run command: "npm install es6-promise --save-dev for meeting ng2-material dependency
+23. 
