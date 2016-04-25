@@ -1,4 +1,4 @@
-System.register(['angular2/core', './masterpage/masterpage.js'], function(exports_1, context_1) {
+System.register(['angular2/core', './masterpage/masterpage'], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -10,15 +10,15 @@ System.register(['angular2/core', './masterpage/masterpage.js'], function(export
     var __metadata = (this && this.__metadata) || function (k, v) {
         if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
     };
-    var core_1, masterpage_js_1;
+    var core_1, masterpage_1;
     var AppComponent;
     return {
         setters:[
             function (core_1_1) {
                 core_1 = core_1_1;
             },
-            function (masterpage_js_1_1) {
-                masterpage_js_1 = masterpage_js_1_1;
+            function (masterpage_1_1) {
+                masterpage_1 = masterpage_1_1;
             }],
         execute: function() {
             AppComponent = (function () {
@@ -27,7 +27,7 @@ System.register(['angular2/core', './masterpage/masterpage.js'], function(export
                 AppComponent = __decorate([
                     core_1.Component({
                         selector: 'app',
-                        directives: [masterpage_js_1.masterpage],
+                        directives: [masterpage_1.masterpage],
                         template: '<masterpage></masterpage>'
                     }), 
                     __metadata('design:paramtypes', [])
