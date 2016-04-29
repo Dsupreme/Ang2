@@ -37,10 +37,22 @@
     <!-- Configure SystemJS -->
     <script>
       System.config({
+        defaultExtension: 'js',
+        map: {
+          // "ng2-material":"node_modules/ng2-material",
+          "materialize-css": "node-modules/materialize-css",
+          "materialize": "node_modules/angular2-materialize",
+          "angular2-materialize": "node_modules/angular2-materialize"
+        },
         packages: {        
           build: {
             format: 'register',
-            defaultExtension: 'js'
+          },
+          "materialize-css": {
+              "main": "dist/js/materialize"
+          },
+          "materialize": {
+              "main": "dist/materialize-directive",
           }
         }
       });

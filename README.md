@@ -26,4 +26,7 @@ Steps followed to setup this project in the current state:
 20. Added modal to navbar on click of button in reportCatalog.html
 21. Run command: "npm install --save ng2-material" for using modals
 22. Run command: "npm install es6-promise --save-dev for meeting ng2-material dependency
-23. 
+23. Run command: "npm install angular2-materialize --save" to use materialize modals instead of ng2-material
+24. Updated index.html System.Config -> Added packages definition and their corresponding mappings
+25. Updated main.ts with import for angular2-materialize
+26. 
