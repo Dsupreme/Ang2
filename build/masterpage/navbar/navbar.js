@@ -28,7 +28,8 @@ System.register(['angular2/core', './reportCatalog/reportCatalog'], function(exp
                     core_1.Component({
                         selector: 'navbar',
                         directives: [reportCatalog_1.reportCatalogComponent],
-                        templateUrl: 'app/masterpage/navbar/navbar.html'
+                        templateUrl: 'app/masterpage/navbar/navbar.html',
+                        styleUrls: ["app/masterpage/navbar/navbar.css"]
                     }), 
                     __metadata('design:paramtypes', [])
                 ], navbarComponent);

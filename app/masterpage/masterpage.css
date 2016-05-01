@@ -28,10 +28,8 @@ html {
   src: local("Open Sans"), local("OpenSans"), url(https://themes.googleusercontent.com/static/fonts/opensans/v6/K88pR3goAWT7BTt32Z01mz8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
 }
 
-.brand-img {
-  display: inline-block;
-  padding: 10px;
-  width: 60px;
+.waves-effect.waves-blue .waves-ripple {
+  background-color: rgba(0, 85, 0, 0.65);
 }
 
 .nav-center {
