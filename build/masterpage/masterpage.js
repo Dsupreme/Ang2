@@ -28,7 +28,8 @@ System.register(['angular2/core', './navbar/navbar'], function(exports_1, contex
                     core_1.Component({
                         selector: 'masterpage',
                         directives: [navbar_1.navbarComponent],
-                        templateUrl: 'app/masterpage/masterpage.html'
+                        templateUrl: 'app/masterpage/masterpage.html',
+                        styleUrls: ["app/masterpage/masterpage.css"]
                     }), 
                     __metadata('design:paramtypes', [])
                 ], masterpage);
