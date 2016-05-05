@@ -4,7 +4,8 @@ import {navbarComponent} from './navbar/navbar'
 @Component({
   selector: 'masterpage',
   directives: [navbarComponent],
-  templateUrl: 'app/masterpage/masterpage.html'
+  templateUrl: 'app/masterpage/masterpage.html',
+  styleUrls: ['app/masterpage/masterpage.css']
 
 })
 
