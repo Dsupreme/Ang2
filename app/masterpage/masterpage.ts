@@ -5,8 +5,7 @@ import {navbarComponent} from './navbar/navbar'
   selector: 'masterpage',
   directives: [navbarComponent],
   templateUrl: 'app/masterpage/masterpage.html',
-  styleUrls: ["app/masterpage/masterpage.css"]
-
+  styleUrls: ['app/masterpage/masterpage.css']
 })
 
 export class masterpage {

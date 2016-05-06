@@ -28,7 +28,8 @@ System.register(['angular2/core', "angular2-materialize"], function(exports_1, c
                     core_1.Component({
                         selector: 'reportCatalog',
                         directives: [angular2_materialize_1.MaterializeDirective],
-                        templateUrl: 'app/masterpage/navbar/reportCatalog/reportCatalog.html'
+                        templateUrl: 'app/masterpage/navbar/reportCatalog/reportCatalog.html',
+                        styles: ["\n    .nav-center {\n      margin: 0.9em !important;\n    }\n  "]
                     }), 
                     __metadata('design:paramtypes', [])
                 ], reportCatalogComponent);
